@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="k9e-yu-o4R">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--CONTACTO-->
+        <scene sceneID="mxv-6e-HJZ">
+            <objects>
+                <viewController id="gKv-fo-l2e" customClass="EightViewController" customModule="Evidencia_AJMR" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GLx-au-7Hd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wQV-Pc-K18">
+                                <rect key="frame" x="0.0" y="88" width="414" height="242"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="CONTACTO">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iM1-8c-SY5">
+                                <rect key="frame" x="0.0" y="609" width="414" height="287"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="MAPA">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NYk-ts-iot">
+                                <rect key="frame" x="0.0" y="338" width="414" height="263"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="DONACIONES">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cqe-4y-ZSa"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="CONTACTO" id="RRb-yp-rao"/>
+                    <connections>
+                        <outlet property="contacto" destination="wQV-Pc-K18" id="pWz-9w-VYs"/>
+                        <outlet property="donaciones" destination="NYk-ts-iot" id="vKN-Fn-Q2w"/>
+                        <outlet property="mapa" destination="iM1-8c-SY5" id="Rkp-jY-hG6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xea-3i-Wdw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="828.98550724637687" y="-544.41964285714278"/>
+        </scene>
+        <!--INICIO-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Evidencia_AJMR" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XHN-5N-NjG">
+                                <rect key="frame" x="0.0" y="243" width="414" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="41"/>
+                                <state key="normal" title="PODCAST">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OgM-DG-5Nh">
+                                <rect key="frame" x="0.0" y="398" width="414" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="VIDEOS">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="VJQ-FT-8zy" kind="show" id="cip-9a-pRx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TQC-4q-xJM">
+                                <rect key="frame" x="0.0" y="553" width="414" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="MENSAJES">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="QXl-6M-kPr" kind="show" id="OfB-7y-8e5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dLA-Lo-huL">
+                                <rect key="frame" x="0.0" y="713" width="414" height="183"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="41"/>
+                                <state key="normal" title="CONTACTO">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gKv-fo-l2e" kind="show" id="Byv-Zw-IVg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="agD-tw-VFC">
+                                <rect key="frame" x="0.0" y="88" width="414" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="REDES SOCIALES">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="u5i-Dh-Rxj" kind="show" id="v4G-se-msK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="INICIO" id="l17-KY-Cm8"/>
+                    <connections>
+                        <outlet property="podcasturl" destination="XHN-5N-NjG" id="MYc-cP-qjM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="830.43478260869574" y="116.51785714285714"/>
+        </scene>
+        <!--Secons View Controller-->
+        <scene sceneID="9lI-er-mha">
+            <objects>
+                <viewController id="u5i-Dh-Rxj" customClass="SeconsViewController" customModule="Evidencia_AJMR" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BgR-Xx-9mE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZV-9p-1Df">
+                                <rect key="frame" x="0.0" y="88" width="414" height="219"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <state key="normal" title="YOUTUBE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UuJ-17-ByT">
+                                <rect key="frame" x="0.0" y="601" width="414" height="295"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <state key="normal" title="Facebbok">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ckg-9Y-xL6">
+                                <rect key="frame" x="0.0" y="315" width="414" height="278"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <state key="normal" title="INSTAGRAM">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="oKw-ET-YIK"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="BfL-1P-sL0"/>
+                    <connections>
+                        <outlet property="fb" destination="UuJ-17-ByT" id="RXb-Us-3VB"/>
+                        <outlet property="ins" destination="ckg-9Y-xL6" id="AsG-Tm-dFv"/>
+                        <outlet property="yt" destination="vZV-9p-1Df" id="KGN-X6-fEO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wB7-GH-2Mg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1579.7101449275362" y="116.51785714285714"/>
+        </scene>
+        <!--VIDEOS-->
+        <scene sceneID="jD2-R6-7CV">
+            <objects>
+                <viewController id="VJQ-FT-8zy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3gQ-WN-mPf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TSX-8N-spg">
+                                <rect key="frame" x="-160" y="88" width="734" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="No es con que, es con quien">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Fnd-2x-cZf" kind="show" id="MSP-Kv-a5R"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l01-ww-fTx">
+                                <rect key="frame" x="0.0" y="243" width="414" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Las leyes de Dios">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Jrg-Ke-77b" kind="show" id="Z2r-j3-oXF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CNO-Wh-aFm">
+                                <rect key="frame" x="-46" y="398" width="507" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Elige tu">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ptY-Gs-nbZ" kind="show" id="Gpe-zj-co3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LYa-7X-y15">
+                                <rect key="frame" x="0.0" y="553" width="414" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Oraciones incorrectas">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="RK1-o7-kkk" kind="show" id="0yg-5Y-cIt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L6R-O4-whV">
+                                <rect key="frame" x="-2" y="708" width="419" height="188"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="No temas">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="0zc-Dr-pQ3" kind="show" id="nar-W1-5Zm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="d1T-kE-Y84"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="VIDEOS" id="1I0-5T-Cg2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CLl-Mc-3BV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="847.82608695652175" y="784.82142857142856"/>
+        </scene>
+        <!--Video 1-->
+        <scene sceneID="zka-0f-70T">
+            <objects>
+                <viewController id="Fnd-2x-cZf" customClass="ThirdViewController" customModule="Evidencia_AJMR" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wts-f1-rTF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d1u-Zw-B0i" customClass="YTPlayerView">
+                                <rect key="frame" x="0.0" y="88" width="414" height="300"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="nru-2x-BM7"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="eh9-Ic-sZE"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="d1u-Zw-B0i" firstAttribute="leading" secondItem="eh9-Ic-sZE" secondAttribute="leading" id="8Qk-g5-ssX"/>
+                            <constraint firstItem="d1u-Zw-B0i" firstAttribute="top" secondItem="eh9-Ic-sZE" secondAttribute="top" id="jPD-Js-6OU"/>
+                            <constraint firstItem="eh9-Ic-sZE" firstAttribute="trailing" secondItem="d1u-Zw-B0i" secondAttribute="trailing" id="olq-qn-Z2Q"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Video 1" id="LSH-Qv-ABc"/>
+                    <connections>
+                        <outlet property="playerView" destination="d1u-Zw-B0i" id="3j6-mC-dYW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GiL-UX-fs0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1887" y="1434"/>
+        </scene>
+        <!--Video 2-->
+        <scene sceneID="x0t-Q0-V2R">
+            <objects>
+                <viewController id="Jrg-Ke-77b" customClass="ForthViewController" customModule="Evidencia_AJMR" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qhc-LM-Ukn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fks-i8-kt4" customClass="YTPlayerView">
+                                <rect key="frame" x="0.0" y="88" width="414" height="300"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="o09-3d-eDQ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="KbT-4M-FAg"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Fks-i8-kt4" firstAttribute="top" secondItem="KbT-4M-FAg" secondAttribute="top" id="8T1-L1-Mfq"/>
+                            <constraint firstItem="Fks-i8-kt4" firstAttribute="leading" secondItem="KbT-4M-FAg" secondAttribute="leading" id="byd-aL-z0O"/>
+                            <constraint firstItem="KbT-4M-FAg" firstAttribute="trailing" secondItem="Fks-i8-kt4" secondAttribute="trailing" id="tB8-M4-INA"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Video 2" id="LJH-37-Gab"/>
+                    <connections>
+                        <outlet property="playerView2" destination="Fks-i8-kt4" id="25o-Jc-bHp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vIu-SW-8pj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1216" y="1446"/>
+        </scene>
+        <!--Video 3-->
+        <scene sceneID="k9Y-PV-t2q">
+            <objects>
+                <viewController id="ptY-Gs-nbZ" customClass="FifthViewController" customModule="Evidencia_AJMR" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hA5-2Z-kRG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="POs-BH-1yl" customClass="YTPlayerView">
+                                <rect key="frame" x="0.0" y="88" width="414" height="300"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="3SR-Wk-EbU"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="NyC-Wx-8kY"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="POs-BH-1yl" firstAttribute="top" secondItem="NyC-Wx-8kY" secondAttribute="top" id="CcC-1d-Yh4"/>
+                            <constraint firstItem="POs-BH-1yl" firstAttribute="leading" secondItem="NyC-Wx-8kY" secondAttribute="leading" id="ppD-XH-Teq"/>
+                            <constraint firstItem="NyC-Wx-8kY" firstAttribute="trailing" secondItem="POs-BH-1yl" secondAttribute="trailing" id="yy6-DS-cOb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Video 3" id="SgH-8g-kO4"/>
+                    <connections>
+                        <outlet property="playerView2" destination="POs-BH-1yl" id="nAM-YJ-WH1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c4W-h2-psn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-529" y="1446"/>
+        </scene>
+        <!--Video  4-->
+        <scene sceneID="mbv-BW-y2W">
+            <objects>
+                <viewController id="RK1-o7-kkk" customClass="SixthViewController" customModule="Evidencia_AJMR" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y7e-K9-r1d">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4rP-Ff-L8G" customClass="YTPlayerView">
+                                <rect key="frame" x="0.0" y="88" width="414" height="300"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="4go-Yf-UEM"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="300" id="8hu-h1-ndo"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="aAc-N9-TMH"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="4rP-Ff-L8G" firstAttribute="top" secondItem="aAc-N9-TMH" secondAttribute="top" id="6OD-2K-OB0"/>
+                            <constraint firstAttribute="trailing" secondItem="4rP-Ff-L8G" secondAttribute="trailing" id="Xs9-1z-Fkr"/>
+                            <constraint firstItem="4rP-Ff-L8G" firstAttribute="leading" secondItem="aAc-N9-TMH" secondAttribute="leading" id="kWE-lM-Msc"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Video  4" id="NMs-Kr-keK"/>
+                    <connections>
+                        <outlet property="playerView2" destination="4rP-Ff-L8G" id="cYM-5O-mfX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ReE-be-wuq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="142" y="1446"/>
+        </scene>
+        <!--Video  5-->
+        <scene sceneID="6lv-7g-3RP">
+            <objects>
+                <viewController id="0zc-Dr-pQ3" customClass="SeventhViewController" customModule="Evidencia_AJMR" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UuT-20-I3S">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NDb-ud-qQ0" customClass="YTPlayerView">
+                                <rect key="frame" x="0.0" y="88" width="414" height="300"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="300" id="Cvb-nH-iNz"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="300" id="FYP-vY-66k"/>
+                                    <constraint firstAttribute="height" constant="300" id="JmX-ZP-bsz"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="BSk-Uj-XoB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NDb-ud-qQ0" firstAttribute="top" secondItem="BSk-Uj-XoB" secondAttribute="top" id="QhD-LR-6iH"/>
+                            <constraint firstItem="NDb-ud-qQ0" firstAttribute="leading" secondItem="BSk-Uj-XoB" secondAttribute="leading" id="gI2-QX-YV5"/>
+                            <constraint firstItem="NDb-ud-qQ0" firstAttribute="trailing" secondItem="BSk-Uj-XoB" secondAttribute="trailing" id="z9v-d3-W9m"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Video  5" id="D5y-dU-sBZ"/>
+                    <connections>
+                        <outlet property="playerView2" destination="NDb-ud-qQ0" id="6Xx-tS-xyD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DhG-DU-0uP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="848" y="1446"/>
+        </scene>
+        <!--MENSAJES-->
+        <scene sceneID="CKg-2W-KJi">
+            <objects>
+                <viewController id="QXl-6M-kPr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7Oj-40-ljm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Erk-5d-eSV">
+                                <rect key="frame" x="0.0" y="88" width="414" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="Salmo 91">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="82s-70-zmX" kind="show" id="Lln-de-HHC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bue-zS-cpE">
+                                <rect key="frame" x="0.0" y="243" width="414" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="Filipenses 4">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="f1S-5p-XZ9" kind="show" id="u3e-RA-7L1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J5C-50-cn9">
+                                <rect key="frame" x="0.0" y="398" width="414" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="Proverbios 5">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Lpe-Bj-9gx" kind="show" id="e5J-gA-67i"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FpS-iT-J2E">
+                                <rect key="frame" x="0.0" y="553" width="414" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="Salmos 23">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="HDB-Ak-tjS" kind="show" id="Vqe-gC-Lxj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LEq-y9-dvw">
+                                <rect key="frame" x="0.0" y="708" width="414" height="188"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                <state key="normal" title="Mateo 5">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1L4-xF-nLu" kind="show" id="HUt-DH-utt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ccX-js-8Em"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="MENSAJES" id="IEI-Tj-T5P"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Unb-uy-EF7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1579.7101449275362" y="784.82142857142856"/>
+        </scene>
+        <!--Mensaje 1-->
+        <scene sceneID="6lS-z6-jkE">
+            <objects>
+                <viewController id="82s-70-zmX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="itg-Lu-4Lr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="icJ-65-XWf">
+                                <rect key="frame" x="0.0" y="88" width="414" height="1112"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cAA-XL-z5u" userLabel="Control View">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Salmo 91" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t01-wW-Lrx">
+                                                <rect key="frame" x="89" y="-12" width="237" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="NotoSansKannada-Bold" family="Noto Sans Kannada" pointSize="50"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="200" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zpc-BN-ija">
+                                                <rect key="frame" x="14" y="-113" width="392" height="1452"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">1 El que habita al abrigo del Altísimo se acoge a la sombra del Todopoderoso.
+
+2 Yo le digo al Señor: «Tú eres mi refugio, mi fortaleza, el Dios en quien confío.»
+
+3 Sólo él puede librarte de las trampas del cazador y de mortíferas plagas,
+
+4 pues te cubrirá con sus plumas y bajo sus alas hallarás refugio. Su verdad será tu escudo y tu baluarte!
+
+5 No temerás el terror de la noche, ni la flecha que vuela de día,
+
+6 ni la peste que acecha en las sombras ni la plaga que destruye a mediodía.
+
+7 Podrán caer mil a tu izquierda, y diez mil a tu derecha, pero a ti no te afectará.
+
+8 No tendrás más que abrir bien los ojos, para ver a los impíos recibir su merecido.
+
+9 Ya que has puesto al Señor por tu* refugio, al Altísimo por tu protección,
+
+10 ningún mal habrá de sobrevenirte, ninguna calamidad llegará a tu hogar.
+
+11 Porque él ordenará que sus ángeles te cuiden en todos tus caminos.
+
+12 Con sus propias manos te levantarán para que no tropieces con piedra alguna.
+
+13 Aplastarás al león y a la víbora; ¡hollarás fieras y serpientes!
+
+14 «Yo lo libraré, porque él se acoge a mí;
+lo protegeré, porque reconoce mi nombre.
+
+15 Él me invocará, y yo le responderé;
+estaré con él en momentos de angustia;
+lo libraré y lo llenaré de honores.
+
+16 Lo colmaré con muchos años de vida
+y le haré gozar de mi salvación.»</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1200" id="KR9-ul-EbO"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="cAA-XL-z5u" secondAttribute="bottom" id="QEe-Bk-1Ix"/>
+                                    <constraint firstAttribute="trailing" secondItem="cAA-XL-z5u" secondAttribute="trailing" id="aGW-cs-Npw"/>
+                                    <constraint firstItem="cAA-XL-z5u" firstAttribute="top" secondItem="icJ-65-XWf" secondAttribute="top" id="amd-n9-5YI"/>
+                                    <constraint firstItem="cAA-XL-z5u" firstAttribute="leading" secondItem="icJ-65-XWf" secondAttribute="leading" id="jpD-ev-Xy1"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cHP-TU-DlJ"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="icJ-65-XWf" firstAttribute="leading" secondItem="cHP-TU-DlJ" secondAttribute="leading" id="LGp-gf-XBJ"/>
+                            <constraint firstItem="cAA-XL-z5u" firstAttribute="width" secondItem="itg-Lu-4Lr" secondAttribute="width" id="YOo-f8-rl6"/>
+                            <constraint firstItem="icJ-65-XWf" firstAttribute="trailing" secondItem="cHP-TU-DlJ" secondAttribute="trailing" id="eUd-7J-D7N"/>
+                            <constraint firstItem="icJ-65-XWf" firstAttribute="top" secondItem="cHP-TU-DlJ" secondAttribute="top" id="tD6-Wq-wBX"/>
+                            <constraint firstAttribute="bottom" secondItem="icJ-65-XWf" secondAttribute="bottom" id="wix-Yz-FjV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Mensaje 1" id="aoa-3y-cLC"/>
+                    <size key="freeformSize" width="414" height="1200"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="60q-I7-NU6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1578" y="1547"/>
+        </scene>
+        <!--Mensaje 2-->
+        <scene sceneID="of3-K8-SUR">
+            <objects>
+                <viewController id="f1S-5p-XZ9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fkv-AA-FX1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="2300"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fXr-lj-DGU">
+                                <rect key="frame" x="0.0" y="88" width="414" height="2212"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dvl-aF-8ye">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2300"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Filipenses 4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2EK-GU-cWq">
+                                                <rect key="frame" x="64" y="8" width="288" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="NotoSansKannada-Bold" family="Noto Sans Kannada" pointSize="50"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="500" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fIR-zQ-oc3">
+                                                <rect key="frame" x="8" y="81" width="398" height="1881"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">1 Así que, hermanos míos amados y deseados, gozo y corona mía, estad así firmes en el Señor, amados.
+
+2 Ruego a Evodia y a Síntique, que sean de un mismo sentir en el Señor.
+
+3 Asimismo te ruego también a ti, compañero fiel, que ayudes a éstas que combatieron juntamente conmigo en el evangelio, con Clemente también y los demás colaboradores míos, cuyos nombres están en el libro de la vida.
+
+4 Regocijaos en el Señor siempre. Otra vez digo: !!Regocijaos!
+
+5 Vuestra gentileza sea conocida de todos los hombres. El Señor está cerca.
+
+6 Por nada estéis afanosos, sino sean conocidas vuestras peticiones delante de Dios en toda oración y ruego, con acción de gracias.
+
+7 Y la paz de Dios, que sobrepasa todo entendimiento, guardará vuestros corazones y vuestros pensamientos en Cristo Jesús.
+
+En esto pensad
+8 Por lo demás, hermanos, todo lo que es verdadero, todo lo honesto, todo lo justo, todo lo puro, todo lo amable, todo lo que es de buen nombre; si hay virtud alguna, si algo digno de alabanza, en esto pensad.
+
+9 Lo que aprendisteis y recibisteis y oísteis y visteis en mí, esto haced; y el Dios de paz estará con vosotros.
+
+Dádivas de los filipenses
+10 En gran manera me gocé en el Señor de que ya al fin habéis revivido vuestro cuidado de mí; de lo cual también estabais solícitos, pero os faltaba la oportunidad.
+
+11 No lo digo porque tenga escasez, pues he aprendido a contentarme, cualquiera que sea mi situación.
+
+12 Sé vivir humildemente, y sé tener abundancia; en todo y por todo estoy enseñado, así para estar saciado como para tener hambre, así para tener abundancia como para padecer necesidad.
+
+13 Todo lo puedo en Cristo que me fortalece.
+
+14 Sin embargo, bien hicisteis en participar conmigo en mi tribulación.
+
+15 Y sabéis también vosotros, oh filipenses, que al principio de la predicación del evangelio, cuando partí de Macedonia, ninguna iglesia participó conmigo en razón de dar y recibir, sino vosotros solos;
+
+16 pues aun a Tesalónica me enviasteis una y otra vez para mis necesidades.
+
+17 No es que busque dádivas, sino que busco fruto que abunde en vuestra cuenta.
+
+18 Pero todo lo he recibido, y tengo abundancia; estoy lleno, habiendo recibido de Epafrodito lo que enviasteis; olor fragante, sacrificio acepto, agradable a Dios.
+
+19 Mi Dios, pues, suplirá todo lo que os falta conforme a sus riquezas en gloria en Cristo Jesús.
+
+20 Al Dios y Padre nuestro sea gloria por los siglos de los siglos. Amén.
+
+Salutaciones finales
+21 Saludad a todos los santos en Cristo Jesús. Los hermanos que están conmigo os saludan.
+
+22 Todos los santos os saludan, y especialmente los de la casa de César.
+
+23 La gracia de nuestro Señor Jesucristo sea con todos vosotros. Amén.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2300" id="Zb8-hu-QXn"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Dvl-aF-8ye" firstAttribute="leading" secondItem="fXr-lj-DGU" secondAttribute="leading" id="FM9-5p-yla"/>
+                                    <constraint firstItem="Dvl-aF-8ye" firstAttribute="leading" secondItem="fXr-lj-DGU" secondAttribute="leading" id="POc-0a-cbL"/>
+                                    <constraint firstAttribute="trailing" secondItem="Dvl-aF-8ye" secondAttribute="trailing" id="Y1c-eA-ZSt"/>
+                                    <constraint firstAttribute="bottom" secondItem="Dvl-aF-8ye" secondAttribute="bottom" id="YGp-gY-Yv2"/>
+                                    <constraint firstAttribute="trailing" secondItem="Dvl-aF-8ye" secondAttribute="trailing" id="bHk-Lv-0TO"/>
+                                    <constraint firstItem="Dvl-aF-8ye" firstAttribute="top" secondItem="fXr-lj-DGU" secondAttribute="top" id="ca8-0B-ybb"/>
+                                    <constraint firstAttribute="bottom" secondItem="Dvl-aF-8ye" secondAttribute="bottom" id="eA3-4Y-R7U"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Dtl-md-2Bs"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="fXr-lj-DGU" secondAttribute="bottom" id="9Ga-4M-KfT"/>
+                            <constraint firstItem="fXr-lj-DGU" firstAttribute="leading" secondItem="Dtl-md-2Bs" secondAttribute="leading" id="Mju-Q3-b4m"/>
+                            <constraint firstItem="fXr-lj-DGU" firstAttribute="top" secondItem="Dtl-md-2Bs" secondAttribute="top" id="NYI-fx-jCQ"/>
+                            <constraint firstItem="Dvl-aF-8ye" firstAttribute="width" secondItem="fkv-AA-FX1" secondAttribute="width" id="loE-Hw-UCd"/>
+                            <constraint firstAttribute="trailing" secondItem="fXr-lj-DGU" secondAttribute="trailing" id="rBT-5g-DYS"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Mensaje 2" id="vVM-OR-xe7"/>
+                    <size key="freeformSize" width="414" height="2300"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bIL-4c-q8E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2249" y="1915"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="EjG-1R-eVD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="k9e-yu-o4R" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="S8V-Hv-3xD">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="2gM-ES-QGZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mkn-ns-psi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="116.51785714285714"/>
+        </scene>
+        <!--Mensaje 3-->
+        <scene sceneID="rAh-YL-Tlz">
+            <objects>
+                <viewController id="Lpe-Bj-9gx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9EU-7R-EBd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wle-Hv-9XN">
+                                <rect key="frame" x="0.0" y="88" width="414" height="1512"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Npk-Vv-lGO">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1600"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Proverbios 5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t3f-4f-J3U">
+                                                <rect key="frame" x="55" y="8" width="305" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="NotoSansKannada-Bold" family="Noto Sans Kannada" pointSize="50"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5000" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nUW-H1-BXJ">
+                                                <rect key="frame" x="16" y="92" width="398" height="1472"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">1 Hijo mío, está atento a mi sabiduría, Y a mi inteligencia inclina tu oído,
+
+2 Para que guardes consejo, Y tus labios conserven la ciencia.
+
+3 Porque los labios de la mujer extraña destilan miel,
+Y su paladar es más blando que el aceite;
+
+4 Mas su fin es amargo como el ajenjo,
+Agudo como espada de dos filos.
+
+5 Sus pies descienden a la muerte; Sus pasos conducen al Seol.
+
+6 Sus caminos son inestables; no los conocerás, Si no considerares el camino de vida.
+
+7 Ahora pues, hijos, oídme,
+Y no os apartéis de las razones de mi boca.
+
+8 Aleja de ella tu camino,
+Y no te acerques a la puerta de su casa;
+
+9 Para que no des a los extraños tu honor,
+Y tus años al cruel;
+
+10 No sea que extraños se sacien de tu fuerza,
+Y tus trabajos estén en casa del extraño;
+
+11 Y gimas al final,
+Cuando se consuma tu carne y tu cuerpo,
+
+12 Y digas: !!Cómo aborrecí el consejo,
+Y mi corazón menospreció la reprensión;
+
+13 No oí la voz de los que me instruían,
+Y a los que me enseñaban no incliné mi oído!
+
+14 Casi en todo mal he estado,
+En medio de la sociedad y de la congregación.
+
+15 Bebe el agua de tu misma cisterna,
+Y los raudales de tu propio pozo.
+
+16 ¿Se derramarán tus fuentes por las calles,
+Y tus corrientes de aguas por las plazas?
+
+17 Sean para ti solo,
+Y no para los extraños contigo.
+
+18 Sea bendito tu manantial, Y alégrate con la mujer de tu juventud,
+
+19 Como cierva amada y graciosa gacela. Sus caricias te satisfagan en todo tiempo, Y en su amor recréate siempre.
+
+20 ¿Y por qué, hijo mío, andarás ciego con la mujer ajena, Y abrazarás el seno de la extraña?
+
+21 Porque los caminos del hombre están ante los ojos de Jehová, Y él considera todas sus veredas.
+
+22 Prenderán al impío sus propias iniquidades,
+Y retenido será con las cuerdas de su pecado.
+
+23 El morirá por falta de corrección, Y errará por lo inmenso de su locura.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1600" id="HM7-Zo-Nce"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Npk-Vv-lGO" secondAttribute="bottom" id="Lsv-YY-gCZ"/>
+                                    <constraint firstItem="Npk-Vv-lGO" firstAttribute="leading" secondItem="wle-Hv-9XN" secondAttribute="leading" id="hae-3P-0jA"/>
+                                    <constraint firstAttribute="trailing" secondItem="Npk-Vv-lGO" secondAttribute="trailing" id="udw-PD-y6N"/>
+                                    <constraint firstItem="Npk-Vv-lGO" firstAttribute="top" secondItem="wle-Hv-9XN" secondAttribute="top" id="xVE-MD-vhJ"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="NJM-vZ-Wpk"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="wle-Hv-9XN" secondAttribute="bottom" id="2wt-7e-ahG"/>
+                            <constraint firstItem="wle-Hv-9XN" firstAttribute="top" secondItem="NJM-vZ-Wpk" secondAttribute="top" id="EhV-Ii-GhD"/>
+                            <constraint firstItem="wle-Hv-9XN" firstAttribute="leading" secondItem="NJM-vZ-Wpk" secondAttribute="leading" id="N8R-sB-c8z"/>
+                            <constraint firstItem="wle-Hv-9XN" firstAttribute="trailing" secondItem="NJM-vZ-Wpk" secondAttribute="trailing" id="a9N-fD-VNB"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Mensaje 3" id="ubw-m1-112"/>
+                    <size key="freeformSize" width="414" height="1600"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kYA-Ve-n5Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2919" y="1679"/>
+        </scene>
+        <!--Mensaje 4-->
+        <scene sceneID="0JJ-Y1-vwW">
+            <objects>
+                <viewController id="HDB-Ak-tjS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vno-RB-ASI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PT2-tP-bfQ">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S2Q-LJ-Koo">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Salmos 23" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Jy-pU-NzA">
+                                                <rect key="frame" x="55" y="8" width="305" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="NotoSansKannada-Bold" family="Noto Sans Kannada" pointSize="50"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="500" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9o2-xI-UvZ">
+                                                <rect key="frame" x="8" y="107" width="398" height="669"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">1 Jehová es mi pastor; nada me faltará.
+
+2 En lugares de delicados pastos me hará descansar;
+Junto a aguas de reposo me pastoreará.
+
+3 Confortará mi alma;
+Me guiará por sendas de justicia por amor de su nombre.
+
+4 Aunque ande en valle de sombra de muerte,
+No temeré mal alguno, porque tú estarás conmigo;
+Tu vara y tu cayado me infundirán aliento.
+
+5 Aderezas mesa delante de mí en presencia de mis angustiadores;
+Unges mi cabeza con aceite; mi copa está rebosando.
+
+6 Ciertamente el bien y la misericordia me seguirán todos los días de mi vida,
+Y en la casa de Jehová moraré por largos días.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="808" id="HXY-N4-H9z"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="S2Q-LJ-Koo" firstAttribute="top" secondItem="du7-2k-brw" secondAttribute="top" id="Ol6-RC-Pr4"/>
+                                    <constraint firstItem="S2Q-LJ-Koo" firstAttribute="trailing" secondItem="du7-2k-brw" secondAttribute="trailing" id="gwt-e0-VOC"/>
+                                    <constraint firstItem="S2Q-LJ-Koo" firstAttribute="bottom" secondItem="du7-2k-brw" secondAttribute="bottom" id="q7B-7V-SoX"/>
+                                    <constraint firstItem="S2Q-LJ-Koo" firstAttribute="leading" secondItem="du7-2k-brw" secondAttribute="leading" id="xMJ-tq-GXF"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="GOx-Gc-5o8"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="du7-2k-brw"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IXO-bE-URf"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="PT2-tP-bfQ" firstAttribute="trailing" secondItem="IXO-bE-URf" secondAttribute="trailing" id="WxO-Qm-n4P"/>
+                            <constraint firstItem="PT2-tP-bfQ" firstAttribute="leading" secondItem="IXO-bE-URf" secondAttribute="leading" id="dis-JG-lf0"/>
+                            <constraint firstItem="PT2-tP-bfQ" firstAttribute="top" secondItem="IXO-bE-URf" secondAttribute="top" id="rLu-vr-tgy"/>
+                            <constraint firstAttribute="bottom" secondItem="PT2-tP-bfQ" secondAttribute="bottom" id="z7o-xE-0oO"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Mensaje 4" id="eZf-Eo-egN"/>
+                    <size key="freeformSize" width="414" height="896"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NEK-bk-9cP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3624.6376811594205" y="1443.75"/>
+        </scene>
+        <!--Mensaje 5-->
+        <scene sceneID="j8r-31-TaV">
+            <objects>
+                <viewController id="1L4-xF-nLu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bub-kE-i7X">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="4100"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vbO-at-HdO">
+                                <rect key="frame" x="0.0" y="88" width="414" height="4012"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="shp-va-E53">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="3700"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mateo 5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GYH-mn-gW3">
+                                                <rect key="frame" x="63" y="8" width="305" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="NotoSansKannada-Bold" family="Noto Sans Kannada" pointSize="50"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="1000" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZC5-vb-Pa3">
+                                                <rect key="frame" x="8" y="93" width="398" height="3822"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">1 Viendo la multitud, subió al monte; y sentándose, vinieron a él sus discípulos.
+
+2 Y abriendo su boca les enseñaba, diciendo:
+
+3 Bienaventurados los pobres en espíritu, porque de ellos es el reino de los cielos.
+
+4 Bienaventurados los que lloran, porque ellos recibirán consolación.
+
+5 Bienaventurados los mansos, porque ellos recibirán la tierra por heredad.
+
+6 Bienaventurados los que tienen hambre y sed de justicia, porque ellos serán saciados.
+
+7 Bienaventurados los misericordiosos, porque ellos alcanzarán misericordia.
+
+8 Bienaventurados los de limpio corazón, porque ellos verán a Dios.
+
+9 Bienaventurados los pacificadores, porque ellos serán llamados hijos de Dios.
+
+10 Bienaventurados los que padecen persecución por causa de la justicia, porque de ellos es el reino de los cielos.
+
+11 Bienaventurados sois cuando por mi causa os vituperen y os persigan, y digan toda clase de mal contra vosotros, mintiendo.
+
+12 Gozaos y alegraos, porque vuestro galardón es grande en los cielos; porque así persiguieron a los profetas que fueron antes de vosotros.
+
+La sal de la tierra
+13 Vosotros sois la sal de la tierra; pero si la sal se desvaneciere, ¿con qué será salada? No sirve más para nada, sino para ser echada fuera y hollada por los hombres.
+
+La luz del mundo
+14 Vosotros sois la luz del mundo; una ciudad asentada sobre un monte no se puede esconder.
+
+15 Ni se enciende una luz y se pone debajo de un almud, sino sobre el candelero, y alumbra a todos los que están en casa.
+
+16 Así alumbre vuestra luz delante de los hombres, para que vean vuestras buenas obras, y glorifiquen a vuestro Padre que está en los cielos.
+
+Jesús y la ley
+17 No penséis que he venido para abrogar la ley o los profetas; no he venido para abrogar, sino para cumplir.
+
+18 Porque de cierto os digo que hasta que pasen el cielo y la tierra, ni una jota ni una tilde pasará de la ley, hasta que todo se haya cumplido.
+
+19 De manera que cualquiera que quebrante uno de estos mandamientos muy pequeños, y así enseñe a los hombres, muy pequeño será llamado en el reino de los cielos; mas cualquiera que los haga y los enseñe, éste será llamado grande en el reino de los cielos.
+
+20 Porque os digo que si vuestra justicia no fuere mayor que la de los escribas y fariseos, no entraréis en el reino de los cielos.
+
+Jesús y la ira
+(Lc. 12.57-59)
+21 Oísteis que fue dicho a los antiguos: No matarás; y cualquiera que matare será culpable de juicio.
+
+22 Pero yo os digo que cualquiera que se enoje contra su hermano, será culpable de juicio; y cualquiera que diga: Necio, a su hermano, será culpable ante el concilio; y cualquiera que le diga: Fatuo, quedará expuesto al infierno de fuego.
+
+23 Por tanto, si traes tu ofrenda al altar, y allí te acuerdas de que tu hermano tiene algo contra ti,
+
+24 deja allí tu ofrenda delante del altar, y anda, reconcíliate primero con tu hermano, y entonces ven y presenta tu ofrenda.
+
+25 Ponte de acuerdo con tu adversario pronto, entre tanto que estás con él en el camino, no sea que el adversario te entregue al juez, y el juez al alguacil, y seas echado en la cárcel.
+
+26 De cierto te digo que no saldrás de allí, hasta que pagues el último cuadrante.
+
+Jesús y el adulterio
+27 Oísteis que fue dicho: No cometerás adulterio.
+
+28 Pero yo os digo que cualquiera que mira a una mujer para codiciarla, ya adulteró con ella en su corazón.
+
+29 Por tanto, si tu ojo derecho te es ocasión de caer, sácalo, y échalo de ti; pues mejor te es que se pierda uno de tus miembros, y no que todo tu cuerpo sea echado al infierno.
+
+30 Y si tu mano derecha te es ocasión de caer, córtala, y échala de ti; pues mejor te es que se pierda uno de tus miembros, y no que todo tu cuerpo sea echado al infierno.
+
+Jesús y el divorcio
+31 También fue dicho: Cualquiera que repudie a su mujer, dele carta de divorcio.
+
+32 Pero yo os digo que el que repudia a su mujer, a no ser por causa de fornicación, hace que ella adultere; y el que se casa con la repudiada, comete adulterio.
+
+Jesús y los juramentos
+33 Además habéis oído que fue dicho a los antiguos: No perjurarás, sino cumplirás al Señor tus juramentos.
+
+34 Pero yo os digo: No juréis en ninguna manera; ni por el cielo, porque es el trono de Dios;
+
+35 ni por la tierra, porque es el estrado de sus pies; ni por Jerusalén, porque es la ciudad del gran Rey.
+
+36 Ni por tu cabeza jurarás, porque no puedes hacer blanco o negro un solo cabello.
+
+37 Pero sea vuestro hablar: Sí, sí; no, no; porque lo que es más de esto, de mal procede.
+
+El amor hacia los enemigos
+(Lc. 6.27-36)
+38 Oísteis que fue dicho: Ojo por ojo, y diente por diente.
+
+39 Pero yo os digo: No resistáis al que es malo; antes, a cualquiera que te hiera en la mejilla derecha, vuélvele también la otra;
+
+40 y al que quiera ponerte a pleito y quitarte la túnica, déjale también la capa;
+
+41 y a cualquiera que te obligue a llevar carga por una milla, ve con él dos.
+
+42 Al que te pida, dale; y al que quiera tomar de ti prestado, no se lo rehúses.
+
+43 Oísteis que fue dicho: Amarás a tu prójimo, y aborrecerás a tu enemigo.
+
+44 Pero yo os digo: Amad a vuestros enemigos, bendecid a los que os maldicen, haced bien a los que os aborrecen, y orad por los que os ultrajan y os persiguen;
+
+45 para que seáis hijos de vuestro Padre que está en los cielos, que hace salir su sol sobre malos y buenos, y que hace llover sobre justos e injustos.
+
+46 Porque si amáis a los que os aman, ¿qué recompensa tendréis? ¿No hacen también lo mismo los publicanos?
+
+47 Y si saludáis a vuestros hermanos solamente, ¿qué hacéis de más? ¿No hacen también así los gentiles?
+
+48 Sed, pues, vosotros perfectos, como vuestro Padre que está en los cielos es perfecto.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="4100" id="kyf-me-nHV"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="shp-va-E53" firstAttribute="top" secondItem="vbO-at-HdO" secondAttribute="top" id="Sau-Oy-Fxg"/>
+                                    <constraint firstAttribute="bottom" secondItem="shp-va-E53" secondAttribute="bottom" id="brR-YX-fnS"/>
+                                    <constraint firstItem="shp-va-E53" firstAttribute="leading" secondItem="vbO-at-HdO" secondAttribute="leading" id="dc7-JS-sJO"/>
+                                    <constraint firstAttribute="trailing" secondItem="shp-va-E53" secondAttribute="trailing" id="ui5-Pd-VOE"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Zns-DF-t2n"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vbO-at-HdO" firstAttribute="top" secondItem="Zns-DF-t2n" secondAttribute="top" id="KRT-0x-C2D"/>
+                            <constraint firstItem="vbO-at-HdO" firstAttribute="leading" secondItem="Zns-DF-t2n" secondAttribute="leading" id="LMB-zd-OEk"/>
+                            <constraint firstItem="vbO-at-HdO" firstAttribute="leading" secondItem="Zns-DF-t2n" secondAttribute="leading" id="R7t-2m-Hnv"/>
+                            <constraint firstAttribute="bottom" secondItem="vbO-at-HdO" secondAttribute="bottom" id="cRq-mS-o3V"/>
+                            <constraint firstItem="vbO-at-HdO" firstAttribute="trailing" secondItem="Zns-DF-t2n" secondAttribute="trailing" id="eVD-dI-JwC"/>
+                            <constraint firstItem="vbO-at-HdO" firstAttribute="trailing" secondItem="Zns-DF-t2n" secondAttribute="trailing" id="omJ-cA-wTw"/>
+                            <constraint firstItem="vbO-at-HdO" firstAttribute="top" secondItem="Zns-DF-t2n" secondAttribute="top" id="yKd-6J-kbm"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Mensaje 5" id="RRg-do-Asz"/>
+                    <size key="freeformSize" width="414" height="4100"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZxR-fJ-xMu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4319" y="2516"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
